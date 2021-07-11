@@ -1,6 +1,4 @@
 import React from "react"
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
 import './../style.css'
 
 const projects = [
@@ -15,17 +13,31 @@ const projects = [
 ];
 
 class ProjectCard extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {clicked: false};
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick() {
+        this.setState(prevState => ({
+            clicked: !prevState.clicked
+        }));
+    }
 
     render() {
-        return (
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
-                <Card.Body>
-                    <Card.Title>{this.props.name}</Card.Title>
-                    <Card.Text> {this.props.description} </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-            </Card>
+        if(this.state.clicked) {
+            return (
+            <div className="project-card-container" onClick={this.handleClick}>
+                <div> clicked</div>
+            </div>
+            )
+        }
+        else return (
+            <div className="project-card-container" onClick={this.handleClick}>
+                <div> not clicked </div>
+            </div>
+
         )
     }
 }
