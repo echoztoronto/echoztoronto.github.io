@@ -1,15 +1,12 @@
 import React from "react"
 import { Navbar, Nav } from 'react-bootstrap'
+import './../style.css'
 
-const navStyle = {
-    padding: "10px 5% 10px 15%",
-    fontFamily: "'Audiowide', sans-serif",
-    //"fontFamily": "'Festive', cursive"
-};
+
 
 export default function Navbars() {
     return (
-        <Navbar style={navStyle} variant="dark" expand="lg" fixed="top" className="bg-dark">
+        <Navbar className="navbar bg-dark" variant="dark" expand="lg" fixed="top">
             <Navbar.Brand href="/"> Yuwen Zheng </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

@@ -1,6 +1,7 @@
 import React from "react"
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import './../style.css'
 
 const projects = [
     {
@@ -43,5 +44,5 @@ class ProjectSection extends React.Component {
 }
 
 export default function Project() {
-    return <div><h1> Project Page! </h1> <ProjectSection /> </div>
+    return <div className="container"> <ProjectSection /> </div> 
 }
