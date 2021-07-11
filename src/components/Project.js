@@ -15,26 +15,27 @@ const projects = [
 class ProjectCard extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {clicked: false};
-        this.handleClick = this.handleClick.bind(this);
+        this.state =  { hovered: false };
+        this.handleHover = this.handleHover.bind(this);
     }
 
-    handleClick() {
+    handleHover() {
         this.setState(prevState => ({
-            clicked: !prevState.clicked
+            hovered: !prevState.hovered
         }));
     }
 
+
     render() {
-        if(this.state.clicked) {
+        if(this.state.hovered) {
             return (
-            <div className="project-card-container" onClick={this.handleClick}>
+            <div className="project-card-container" onMouseOut={this.handleHover}>
                 <div> clicked</div>
             </div>
             )
         }
         else return (
-            <div className="project-card-container" onClick={this.handleClick}>
+            <div className="project-card-container" onMouseOver={this.handleHover}>
                 <div> not clicked </div>
             </div>
 
