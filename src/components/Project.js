@@ -7,7 +7,7 @@ const projects = [
         name: "Anime Forum",
         summary:"A Q&A anime forum",
         detail:"User can sign up or login, daily check in to earn exp and gold, ask question and answer questions, add rewards or level limitations to questions, like or dislike questions and answers",
-        img: "image/project/forum.jpg",
+        img: "forum.jpg",
         tag: ["HTML", "CSS", "JavaScript", "Express", "MongoDB"],
         github: "https://github.com/echoztoronto/Anime-Forum",
         website: "https://anime-qa-forum.herokuapp.com/"
@@ -16,7 +16,7 @@ const projects = [
         name: "TRPG.JS",
         summary:"A JavaScript Library for TRPGs",
         detail:"TRPG = Tabletop Role-Playing Game. Classes included: attribute panel, attribute bar, inventory, event list, skill panel",
-        img: "image/project/trpg.jpg",
+        img: "trpg.jpg",
         tag: ["JavaScript"],
         github: "https://github.com/echoztoronto/TRPG.JS",
         website: "https://trpg-demo.herokuapp.com/"
@@ -25,7 +25,7 @@ const projects = [
         name: "COBOMAX",
         summary:"A website for Cobomax Academy",
         detail:"Cobomax Academy is a nonprofit organization dedicated to expanding access to Science, Technology, Engineering and Mathematics (STEM) education for young students in London Ontario.",
-        img: "image/project/cobomax.jpg",
+        img: "cobomax.jpg",
         tag: ["HTML", "CSS", "JavaScript", "Bootstrap"],
         github: "https://github.com/echoztoronto/COBOMAX",
         website: "http://www.cobomax.org/"
@@ -34,7 +34,7 @@ const projects = [
         name: "A monitoring and forecast system",
         summary:"A monitoring and forecast system",
         detail:"The project goal is to develop an energy monitoring and short-term load forecasting system that is able to identify energy consumption on university campuses.",
-        img: "image/project/496.jpg",
+        img: "496.jpg",
         tag: ["HTML", "CSS", "JavaScript", "Bootstrap", "Chart.JS"],
         github: "https://github.com/echoztoronto/496FE",
         website: "https://echoztoronto.github.io/496FE/"
@@ -43,7 +43,7 @@ const projects = [
         name: "Computer Networks",
         summary:"Course labs for Computer Networks",
         detail:"Implemented the server and the client programs for a File Transfer (UDP) and a Text Conferencing (TCP) application",
-        img: "image/project/361.jpg",
+        img: "361.jpg",
         tag: ["C"],
         github: "https://github.com/echoztoronto/Computer-Networks"
     },
@@ -51,7 +51,7 @@ const projects = [
         name: "EasyDB",
         summary:"Course labs for Programming Languages",
         detail:"EasyDB Database Driver (Python), Object-Relational Mapping (Python), Concurrent In-Memory Database (Rust), Remote Procedure Call Framework (C++)",
-        img: "image/project/326.jpg",
+        img: "326.jpg",
         tag: ["Python", "Rust", "C++"],
         github: "https://github.com/echoztoronto/EasyDB"
     },
@@ -59,7 +59,7 @@ const projects = [
         name: "Pathage",
         summary:"A geographic information system using data from OpenStreetMap",
         detail:"Algorithm used for shortest path finding: A*, greedy, selection swap, pair swap and two opt.",
-        img: "image/project/pathage.jpg",
+        img: "pathage.jpg",
         tag: ["C++"],
         github: "https://github.com/echoztoronto/Pathage"
     },
@@ -67,7 +67,7 @@ const projects = [
         name: "YWZ",
         summary:"My first web project",
         detail:"Created it using pure HTML/CSS/JavaScript, it's somehow funny.",
-        img: "image/project/ywz.jpg",
+        img: "ywz.jpg",
         tag: ["HTML", "CSS", "JavaScript"],
         github: "https://github.com/echoztoronto/YWZ",
         website: "https://echoztoronto.github.io/YWZ/"
@@ -76,7 +76,7 @@ const projects = [
         name: "LEGO Morse Decoder",
         summary:"LEGO Morse Decoder",
         detail:"Built by Nios-II architecture, motor, light sensor and LEGO pieces, with audio functionality",
-        img: "image/project/lego.jpg",
+        img: "lego.jpg",
         tag: ["Assembly"],
         github: "https://github.com/echoztoronto/LEGO-Morse-Decoder"
     },
@@ -84,7 +84,7 @@ const projects = [
         name: "2048",
         summary: "A 2048 game built on DE1-SoC board",
         detail: "Use arrow keys on keyboard or the buttons on DE1-SoC board to move the tiles, tiles with the same number merge into one when they touch.",
-        img: "image/project/2048.jpg",
+        img: "2048.jpg",
         tag: ["Verilog"],
         github: "https://github.com/echoztoronto/2048"
     },
@@ -92,7 +92,7 @@ const projects = [
         name: "3D-Printer",
         summary: "A entry-level professional 3D printer used in print farms",
         detail: "Includes three designs: two candidate designs and one final design",
-        img: "image/project/printer.jpg",
+        img: "printer.jpg",
         tag: ["SOLIDWORKS"],
         github: "https://github.com/echoztoronto/3D-Printer"
     },
