@@ -114,9 +114,16 @@ class ProjectTag extends React.Component {
 class ProjectCard extends React.Component {
     constructor(props) {
         super(props);
-        this.state =  { hovered: false };
+        this.state =  { hovered: false, clicked: false };
         this.handleHoverOver = this.handleHoverOver.bind(this);
         this.handleMouseLeave = this.handleMouseLeave.bind(this);
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick() {
+        this.setState(prevState  =>  ({
+            clicked: !prevState.clicked
+        }));
     }
 
     handleHoverOver() {
@@ -129,9 +136,9 @@ class ProjectCard extends React.Component {
 
 
     render() {
-        if(this.state.hovered) {
+        if(this.state.hovered || this.state.clicked) {
             return (
-            <div className="project-card-container noselect" onMouseLeave={this.handleMouseLeave}>
+            <div className="project-card-container noselect" onClick={this.handleClick} onMouseLeave={this.handleMouseLeave}>
                 <div className="inline-block-container"> 
                     <img className="project-img" src={process.env.PUBLIC_URL + this.props.img} alt="img"/>
                     <div className="project-content">
@@ -158,12 +165,10 @@ class ProjectCard extends React.Component {
             )
         }
         else return (
-            <div className="project-card-container noselect" onMouseOver={this.handleHoverOver}>
-                <div className="inline-block-container">
+            <div className="project-card-container noselect" onClick={this.handleClick} onMouseOver={this.handleHoverOver}>
                     <div className="project-name">
                         {this.props.name}
                     </div>
-                </div>
             </div>
 
         )
