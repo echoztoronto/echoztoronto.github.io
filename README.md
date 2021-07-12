@@ -1,5 +1,6 @@
 #### Deployed Page:
- https://echozheng.herokuapp.com/
+GitHub Pages: https://echoztoronto.github.io/portfolio/
+Heroku: https://echozheng.herokuapp.com/
 
 
 <br/>
