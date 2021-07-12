@@ -36,7 +36,7 @@ export default function About() {
             </Table>
             <hr />
             <div className="about-section-name"> Skill </div>
-            <Table borderless className="about-content">
+            <Table borderless className="about-content about-skill">
                 <tbody>
                     <tr>
                         <td> Chinese&nbsp;&nbsp;&nbsp;&nbsp; English&nbsp;&nbsp;&nbsp;&nbsp; Japanese</td>
@@ -45,10 +45,10 @@ export default function About() {
                         <td> C&nbsp;&nbsp;&nbsp;&nbsp; C++&nbsp;&nbsp;&nbsp;&nbsp; Python&nbsp;&nbsp;&nbsp;&nbsp; MATLAB &nbsp;&nbsp;&nbsp;&nbsp; SQL </td>
                     </tr>
                     <tr>
-                        <td> HTML&nbsp;&nbsp;&nbsp;&nbsp; CSS&nbsp;&nbsp;&nbsp;&nbsp; JavaScript&nbsp;&nbsp;&nbsp;&nbsp; React&nbsp;&nbsp;&nbsp;&nbsp; Express &nbsp;&nbsp;&nbsp;&nbsp; MongoDB &nbsp;&nbsp;&nbsp;&nbsp; Google Analytics &nbsp;&nbsp;&nbsp;&nbsp; Postman</td>
+                        <td> HTML&nbsp;&nbsp;&nbsp;&nbsp; CSS&nbsp;&nbsp;&nbsp;&nbsp; JavaScript&nbsp;&nbsp;&nbsp;&nbsp; React&nbsp;&nbsp;&nbsp;&nbsp; Express &nbsp;&nbsp;&nbsp;&nbsp; MongoDB &nbsp;&nbsp;&nbsp;&nbsp;  Postman</td>
                     </tr>
                     <tr>
-                        <td>Microsoft Office&nbsp;&nbsp;&nbsp;&nbsp; BigQuery &nbsp;&nbsp;&nbsp;&nbsp; Atlassian Jira&nbsp;&nbsp;&nbsp;&nbsp; TestRail</td>
+                        <td>Microsoft Office&nbsp;&nbsp;&nbsp;&nbsp;Google Analytics &nbsp;&nbsp;&nbsp;&nbsp; BigQuery &nbsp;&nbsp;&nbsp;&nbsp; Atlassian Jira&nbsp;&nbsp;&nbsp;&nbsp; TestRail</td>
                     </tr>
                 </tbody>
             </Table>
