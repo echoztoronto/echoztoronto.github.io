@@ -1,5 +1,6 @@
 .container {
     margin-top: 110px;
+    margin-bottom: 100px;
 }
 
 .home-bg {
@@ -18,6 +19,10 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+.float-right {
+    float: right;
 }
 
 /*home*/
@@ -54,27 +59,109 @@
     color: rgb(194, 194, 194);
 }
 
+/*about*/
+.about-name {
+    font-size: 4em;
+    font-family: 'Righteous', cursive;
+}
 
+.about-sub {
+    font-size: 1.4em;
+    color: rgb(121, 120, 120);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 80px;
+}
 
+.about-section-name {
+    font-size: 2em;
+    font-family: 'Righteous', cursive;
+}
+
+.about-content {
+    font-size: 20px;
+}
 
 
 /*project*/
 
 .project-card-container {
-    height: 200px;
+    min-height: 200px;
     width: 100%;
     background-color: rgb(34, 34, 34);
     color: white;
     margin-top: 50px;
-    transition: all 1s ease 0s;
+    transition: all 1.5s ease 0s;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
     border: 2px solid rgb(40, 41, 109);
 }
 
-.project-card-container:hover {
-    transform: scale(1.1);
+.project-card-container:hover  {
+    transform: scale(1.2);
     background-color: rgb(255, 255, 255);
     color: black;
+}
+
+.inline-block-container{
+    display: flex;
+}
+
+.inline-block-container img, .inline-block-container div {
+    display: inline-block;
+}
+
+.project-img {
+    height: 196px;
+    border-radius: 15px;
+    border-right: 2px solid;
+    max-width: 50%;
+}
+
+.project-name{
+    text-align: center;
+    margin:auto;
+    margin-top: 50px;
+    font-size: 2em;
+    font-family: 'Righteous', cursive;
+}
+
+.github-icon {
+    margin-left: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.project-content{
+    padding: 10px 20px 10px 20px;
+}
+
+.project-summary{
+    display:block;
+    text-align: center;
+    margin:auto;
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+}
+
+.project-detail{
+    display:block;
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 105, 199);
+    margin-bottom: 10px;
+}
+
+.project-tag-container {
+    display:block;
+}
+
+.project-tag {
+    background-color: orange;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 15px;
+    padding: 5px 8px 5px 8px;
+    color: white;
 }
