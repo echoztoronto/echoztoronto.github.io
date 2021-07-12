@@ -1,6 +1,5 @@
 #### Deployed Pages:
-- AWS Ampliy: https://main.d2irfxi9krgaue.amplifyapp.com/
-- Heroku: https://echozheng.herokuapp.com/
+ https://echozheng.herokuapp.com/
 
 
 <br/>
