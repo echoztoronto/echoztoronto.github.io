@@ -5,8 +5,10 @@ import './../animation.css'
 export default function Home() {
     return (
     <div className="wide-container noselect"> 
-        <div className="hero-1  roll-out-left">
-            Hello
+        <div className="fade-in"> 
+            <div className="hero-1  roll-out-left">
+                Hello
+            </div>
         </div>
         <div className="hero-2 bounce-in-right">
             I'm Echo
