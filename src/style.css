@@ -131,7 +131,14 @@ span {
 }
 
 .inline-block-container {
+    background-color: white;
     display: flex;
+    border-radius: 15px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 1.5s;
+    -moz-animation: fadeIn 1.5s;
+    -o-animation: fadeIn 1.5s;
+    -ms-animation: fadeIn 1.5s;
 }
 
 .inline-block-container img, .inline-block-container div {
@@ -140,14 +147,9 @@ span {
 
 .project-img {
     max-height: 300px;
-    border-radius: 15px;
-    border-right: 2px solid;
+    border-radius: 15px 0 0 15px;
+    border-right: 2px solid black;
     max-width: 50%;
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn 1.5s;
-    -moz-animation: fadeIn 1.5s;
-    -o-animation: fadeIn 1.5s;
-    -ms-animation: fadeIn 1.5s;
 }
 
 .project-name {
@@ -169,6 +171,7 @@ span {
 }
 
 .project-summary {
+    color: black;
     display: block;
     font-size: 25px;
     font-family: 'Righteous', cursive;
@@ -216,6 +219,7 @@ span {
         min-width: 100%;
         border-bottom: solid 2px black;
         border-right: none;
+        border-radius: 15px 15px 0 0 ;
     }
 }
 
@@ -231,14 +235,10 @@ span {
     }
     .project-card-container {
         min-height: 100px;
-        background-color: rgb(255, 255, 255);
-        color: black;
         margin-top: 50px;
     }
     .project-card-container:hover {
         transform: scale(1);
-        background-color: rgb(255, 255, 255);
-        color: black;
     }
     .project-name {
         margin-top: 30px;
@@ -246,7 +246,7 @@ span {
     .project-img {
         max-height: 300px;
         min-width: 100%;
-        border: none;
+        border-radius: 15px 15px 0 0 ;
     }
 }
 
