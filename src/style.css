@@ -20,7 +20,8 @@
 
 @media only screen and (max-height: 700px) {
     .navbar {
-        padding: 5px 0 5px 0;
+        padding: 5px 0 5px 15px;
+        text-align: center;
     }
 }
 
@@ -55,6 +56,7 @@ span {
 @media only screen and (max-width: 600px) {
     .wide-container {
         font-size: 0.7em;
+        margin-top: 30px;
     }
 }
 
@@ -68,7 +70,7 @@ span {
 
 @media only screen and (max-height: 700px) {
     .hero-1 {
-        padding-top: 20px;
+        padding-top: 50px;
     }
 }
 
